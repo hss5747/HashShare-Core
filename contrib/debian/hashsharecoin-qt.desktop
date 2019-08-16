@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=HashShare Coin
+Comment=HashShareCoin P2P Cryptocurrency
+Comment[fr]=HashShareCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=HashShareCoin, eşten eşe kriptografik sanal para birimi
+Exec=hashsharecoin-qt %u
+Terminal=false
+Type=Application
+Icon=hashsharecoin128
+MimeType=x-scheme-handler/hashsharecoin;
+Categories=Office;Finance;
+StartupWMClass=HashShareCoin-qt

@@ -1,0 +1,33 @@
+# /etc/conf.d/hashsharecoind: config file for /etc/init.d/hashsharecoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/hashsharecoin/hashsharecoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/hashsharecoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/hashsharecoind.pid"
+
+# Where to write hashsharecoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/hashsharecoind"
+
+# User and group to own hashsharecoind process
+#BITCOIND_USER="hashsharecoin"
+#BITCOIND_GROUP="hashsharecoin"
+
+# Path to hashsharecoind executable
+#BITCOIND_BIN="/usr/bin/hashsharecoind"
+
+# Nice value to run hashsharecoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#BITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for bitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+BITCOIND_SIGTERM_TIMEOUT=60

@@ -1,0 +1,3 @@
+usr/local/bin/hashsharecoind usr/bin
+usr/local/bin/hashsharecoin-cli usr/bin
+debian/examples/hashsharecoin.conf etc/hashsharecoin

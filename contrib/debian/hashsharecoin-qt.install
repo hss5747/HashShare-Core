@@ -1,0 +1,6 @@
+usr/local/bin/hashsharecoin-qt usr/bin
+share/pixmaps/hashsharecoin32.xpm usr/share/pixmaps
+share/pixmaps/hashsharecoin16.xpm usr/share/pixmaps
+share/pixmaps/hashsharecoin128.png usr/share/pixmaps
+debian/hashsharecoin-qt.desktop usr/share/applications
+debian/hashsharecoin-qt.protocol usr/share/kde4/services/
