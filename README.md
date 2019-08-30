@@ -32,8 +32,7 @@
 
 <table>
 <th>Block Height</th><th>Reward</th>
-<tr><td>201-400</td><td>10,000 HSS</td></tr>
-<tr><td>401-262800</td><td>192.5 HSS</td></tr>
+<tr><td>201-262800</td><td>192.5 HSS</td></tr>
 <tr><td>262801-470600</td><td>96.25 HSS</td></tr>
 <tr><td>470601-780300</td><td>48.13 HSS</td></tr>
 <tr><td>780301-1200000</td><td>24.06 HSS</td></tr>
